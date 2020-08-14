@@ -3,12 +3,12 @@
   "name": "Mummy Da Dhaba",
   "icons": [
     {
-      "src": "https://image.flaticon.com/icons/png/512/2785/2785819.png",
+      "src": "media/logo.ico",
       "sizes": "32x32",
       "type": "image/png"
     },    
     {
-      "src": "https://image.flaticon.com/icons/png/512/2785/2785819.png",
+      "src": "media/logo.ico",
       "sizes": "512x512",
       "type": "image/png"
     }
