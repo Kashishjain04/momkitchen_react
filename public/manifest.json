@@ -3,23 +3,18 @@
   "name": "Mummy Da Dhaba",
   "icons": [
     {
-      "src": "media/logo.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
+      "src": "https://image.flaticon.com/icons/png/512/2785/2785819.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },    
     {
-      "src": "media/logo.ico",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "media/logo.ico",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "https://image.flaticon.com/icons/png/512/2785/2785819.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#D8D8D8",
+  "background_color": "#D8D8D8"
 }
