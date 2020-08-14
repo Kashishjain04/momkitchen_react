@@ -3,12 +3,12 @@
   "name": "Mummy Da Dhaba",
   "icons": [
     {
-      "src": "media/logo.png",
+      "src": "https://i.ibb.co/F3LCGpN/logo.png",
       "sizes": "32x32",
       "type": "image/png"
     },    
     {
-      "src": "media/mummydadhaba.png",
+      "src": "https://i.ibb.co/CB5hpr2/Mymmydadhaba.png",
       "sizes": "512x512",
       "type": "image/png"
     }
