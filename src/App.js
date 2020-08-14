@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { lazy, Suspense } from 'react';
 import './App.css';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Nav from './components/Nav';
+// import Home from './Home';
+const Home = lazy(() => import('./Home'));
+const Category = lazy(() => import('./components/Category'));
+const Dish = lazy(() => import('./Dish'));
+// import Category from './components/Category';
+// import Dish from './Dish';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Nav />
+        <Route path="/category/:name" component={Category} />
+        <Route path="/dish/:id" component={Dish} />
+        <Route path="/" exact={true} component={Home} />
+      </Suspense>
+    </BrowserRouter>
   );
 }
 
