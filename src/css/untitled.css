@@ -1,5 +1,5 @@
 .bg-light.masthead.text-center.text-white {
-  background: url("https://greenkitchenstories.com/wp-content/uploads/2017/08/Watermelon_halloumi_salad_3-800x1067.jpg"), #000;
+  background: url("/media/homebg.jpg"), #000;
   background-blend-mode: luminosity;
   background-size: cover;
   background-attachment: fixed;

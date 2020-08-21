@@ -7,7 +7,7 @@ export default {
             cook: "25 minutes",
             yield: "4 Servings",
             english: {
-                image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/12/kadai-paneer.jpg",
+                image: "/media/kpaneer.jpg",
                 ingredients: [
                     "<span class=\"card-item-title\">Kadhai Masala</span>",
                     '<ul class="checkmark"> <li>Coriander seeds - 2 tbsp</li> <li>Dried red chillies - 4</li> <li>Fennel seeds - 3/4 tsp</li> </ul>',
@@ -24,7 +24,7 @@ export default {
                 ]
             },
             hindi: {
-                image: "https://m.tarladalal.com/members/9306/big/big_kadai_paneer_subzi-14089.jpg",
+                image: "/media/kpaneer2.jpg",
                 ingredients: [
                     '<span class="card-item-title">कढ़ाई मसला</span>',
                     '<ul class="checkmark"> <li>धनिया - 2 tbsp</li> <li>कश्मीरी लाल मिर्च (सुखी) - 4</li> <li>सौंफ - 3/4 tsp</li> </ul>',
@@ -204,7 +204,7 @@ export default {
             cook: "",
             yield: " 10-12 Donuts ",
             english: {
-                image: "https://lilluna.com/wp-content/uploads/2013/01/donuts-resize-10.jpg",
+                image: "/media/donut.jpg",
                 ingredients: [
                     '<ul class="checkmark"> <li>Maida - 1cup</li> <li>Powdered sugar - 3/4cup</li> <li>Baking Powder - 1tbsp</li> <li>Baking Soda - 1/2tbsp</li> <li>Molten Butter/Ghee/Oil - 1/4cup</li> <li>Pinch of salt</li> <li>Curd - 2tbsp</li> </ul>'
                 ],
@@ -214,7 +214,7 @@ export default {
                 ]
             },
             hindi: {
-                image: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-donuts-2-1542639436.jpg?crop=1.00xw:0.892xh;0,0.0912xh&resize=1200:*",
+                image: "/media/donut2.jpg",
                 ingredients: [
                     '<ul class="checkmark">',
                     '<li>मैदा - 1cup</li> <li>पीसी चीनी - 3/4cup</li> <li>Baking Powder - 1tbsp</li> <li>Baking Soda - 1/2tbsp</li> <li>पिघला माखन/घी/तेल - 1/4cup</li> <li>चुटकी भर नमक</li> <li>दही - 2tbsp</li> </ul>'
