@@ -1,7 +1,6 @@
 import React from 'react';
 
-const CategoryBanner = (props) => {
-    // console.log(props.category);
+const CategoryBanner = (props) => {    
     const category = props.category;
     return (
         <div>
