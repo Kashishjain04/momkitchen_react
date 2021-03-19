@@ -1,18 +1,22 @@
-import React from 'react';
+import React from "react";
 
-const CategoryBanner = (props) => {    
-    const category = props.category;
-    return (
-        <div>
-            <header className="bg-light text-center text-white">            
-            <section style={{ background: "url('" + category.background + "')", backgroundSize: "cover", backgroundPosition: "center", backgroundAttachment: "fixed", backgroundColor: "cadetblue", backgroundBlendMode: "lighten" }} className="jumbotron text-center">
-                <div className="container">
-                    <h1>{category.name}</h1>
-                </div>
-            </section>
-            </header>
-        </div>
-    );
-}
+const CategoryBanner = ({ category }) => {
+  return (
+    <div>
+      <header className="bg-light text-center text-white">
+        <section
+          className="jumbotron text-center category-header"
+          style={{
+            background: "url('" + category.background + "')",
+          }}
+        >
+          <div className="container">
+            <h1>{category.name}</h1>
+          </div>
+        </section>
+      </header>
+    </div>
+  );
+};
 
 export default CategoryBanner;

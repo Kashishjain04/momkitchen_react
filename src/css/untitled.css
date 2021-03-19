@@ -1,5 +1,6 @@
 .bg-light.masthead.text-center.text-white {
-  background: url("/media/homebg.jpg"), #000;
+  background: url("https://secureservercdn.net/166.62.107.20/qmx.ae8.myftpupload.com/wp-content/uploads/2020/05/Watermelon_halloumi_salad_3-800x1067-1-1-768x1024.jpg"),
+    #000;
   background-blend-mode: luminosity;
   background-size: cover;
   background-attachment: fixed;
