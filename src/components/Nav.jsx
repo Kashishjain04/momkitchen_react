@@ -12,7 +12,7 @@ const Nav = () => {
       }}
       className="navbar navbar-dark navbar-expand-lg fixed-top bg-dark navbar-custom"
     >
-      <div className="container">
+      <div className="container mx-3 mx-sm-auto">
         <Link style={{ fontSize: "16px" }} className="navbar-brand" to="/">
           MUMMY DA DHABA
         </Link>
