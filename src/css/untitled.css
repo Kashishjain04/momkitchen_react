@@ -1,5 +1,5 @@
 .bg-light.masthead.text-center.text-white {
-  background: url("/media/home-header.jpeg"),
+  background: url("../../media/home-header.jpeg"),
     #000;
   background-blend-mode: luminosity;
   background-size: cover;
